@@ -29,8 +29,8 @@ jobs:
         with:
           path: package
           # change the repo below to yours
-          repository: yihui/knitr
-          # ref: master
+          repository: eliocamp/ggnewscale
+          ref: dev
 
       - name: Clean up .Renviron
         run: |
